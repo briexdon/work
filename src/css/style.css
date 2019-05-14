@@ -18,3 +18,29 @@
   font-weight: normal;
   font-style: normal;
 }
+
+.tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 500px;
+  margin-top: 40px;
+  margin-left: 60px;
+}
+
+.block {
+  border: 1px solid grey;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.active {
+  border: 1px solid red;
+}
